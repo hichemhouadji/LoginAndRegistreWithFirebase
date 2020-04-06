@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <Button
+    android:id="@+id/signout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="vjnfvkjfdnvkjdfbkjfn"/>
+android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:text="Sign out"
+    tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
