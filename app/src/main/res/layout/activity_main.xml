@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+    <include
+        android:id="@+id/main_app_toolbar"
+        layout="@layout/app_bar_layout">
+
+    </include>
 <Button
     android:id="@+id/signout"
     android:layout_width="match_parent"
 android:gravity="center_horizontal"
     android:layout_height="wrap_content"
-    android:onClick="onClick"
     android:text="Sign out"
     tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
